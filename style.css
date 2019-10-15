@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'segoelt';
+    src: url(fonts/segoe_light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body  {
+    margin: auto;
+    padding: 0;
+}
+hr {
+    margin: 0;
+}
+header {
+    max-width: 1200px;
+    margin: auto;
+}
+#head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+#head ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+#head ul li {
+    text-align: center;
+    line-height: 20px;
+}
+#head ul li a {
+    text-decoration: none;
+    color: #323332;
+    font-size: 20px;
+    font-family: segoelt;
+    padding: 5px 20px;
+}
+#head ul li a:hover {
+    background: #373737;
+    color: white;
+}
