@@ -7,10 +7,12 @@
 body  {
     margin: auto;
     padding: 0;
+    user-select: none;
 }
 hr {
     margin: 0;
 }
+/*-----------------------------Начали шапку-------------------------*/
 header {
     max-width: 1200px;
     margin: auto;
@@ -20,7 +22,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 0;
+    padding: 15px 0;
 }
 #head ul {
     display: flex;
@@ -44,4 +46,164 @@ header {
 #head ul li a:hover {
     background: #373737;
     color: white;
+}
+/*-----------------------------Закончили шапку-------------------------*/
+
+/*-----------------------------Начали баннер конент-------------------------*/
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+#content #content_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+#content #content_left h1 {
+    font-size: 60px;
+    font-family: segoelt;
+    color: #5d5d5d;
+    font-weight: normal;
+    margin: 0;
+}
+#content #content_left span {
+    font-size: 45px;
+    font-family: segoelt;
+    color: #5d5d5d;
+    font-weight: normal;
+    line-height: 45px;
+}
+#content #content_left a {
+    text-decoration: none;
+    font-size: 23px;
+    font-family: segoelt;
+    width: 43%;
+    padding: 1px 10px;
+    background: #373737;
+    color: white;
+    margin-top: 12px;
+    font-weight: bold;
+    line-height: 30px;
+}
+#content #content_right {
+    width: 70%;
+    text-align: right;
+}
+/*-----------------------------Закончили баннер конент-------------------------*/
+
+/*-----------------------------Начали Блог Контент-------------------------*/
+#blog-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#blog-content #rkl-left {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#blog-content #apple {
+    width: 20%;
+    background:radial-gradient(#e6e6e6, #a3a3a3);
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+#blog-content #apple img {
+    padding: 0 10px;
+}
+#blog-content #rkl-right {
+    width: 28%;
+}
+#apple_information {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+#apple_information h3 {
+    margin: 0;
+    font-size: 32px;
+    color: #696161;
+    font-family: segoelt;
+    font-weight: normal;
+    line-height: 1.2;
+    padding: 0 30px;
+    text-decoration-line: 10px;
+    letter-spacing: 
+}
+#apple_information span {
+    display: block;
+    padding: 0 30px;
+    font-size: 15px;
+    font-family: segoelt;
+    color: #848484;
+    line-height: 1.8;
+}
+#apple_information #lr {
+    width: 100%;
+    text-align: right;
+    word-spacing: -4px;
+    padding: 10px 0;
+
+}
+#apple_information a {
+    padding: 10px 20px;;
+    font-size: 30px;
+    width: 5%;
+    text-align: center;
+    background: #7c7d7c;
+    color: white;
+}
+#apple_information a:last-child {
+    background: #989998;
+}
+#blog-content #rkl-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #e1dddd;
+    box-sizing: border-box;
+    padding: 15px 40px;
+}
+#blog-content #rkl-right span {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+    font-family: segoelt;
+    line-height: 21px;
+    color: #9ba08d;
+}
+#blog-content #rkl-right h4 {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 0;
+    color: #9ba08d;
+}
+#blog-content #rkl-right img:nth-child(1) {
+    padding: 0 0 0 20px;
+}
+#blog-content #rkl-right div:nth-child(2) {
+    text-align: center;
+}
+#blog-content #rkl-right img:nth-child(2) {
+    position: absolute;
+    left: 71%;
+    bottom: 12%;
+}
+#blog-content #rkl-right img:nth-child(3) {
+    padding: 0 0 0 40px;
+}
+#content-information {
+    max-width: 1200px;
+    margin: auto;
 }
